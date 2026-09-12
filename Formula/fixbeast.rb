@@ -5,28 +5,28 @@
 class Fixbeast < Formula
   desc "Agent-driven loop from a production error to a reviewed fix"
   homepage "https://fixbeast.dev"
-  version "0.1.1"
+  version "0.1.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/fixbeast/fixbeast/releases/download/v0.1.1/fixbeast-0.1.1-macos-aarch64.tar.gz"
-      sha256 "af54d25b19d74f84474955cc52ea0b39221b371445b9004229b30e24a7f6bd32"
+      url "https://github.com/fixbeast/fixbeast/releases/download/v0.1.2/fixbeast-0.1.2-macos-aarch64.tar.gz"
+      sha256 "38c8d357e607769849e74797b8980a842b4a4c776c2f49452a5ed7e2422b449b"
     end
     on_intel do
-      url "https://github.com/fixbeast/fixbeast/releases/download/v0.1.1/fixbeast-0.1.1-macos-x64.tar.gz"
-      sha256 "53eb63450661c7c749af1e8d36be12105175f480e9e51bc5210f18a7fdd2ede9"
+      url "https://github.com/fixbeast/fixbeast/releases/download/v0.1.2/fixbeast-0.1.2-macos-x64.tar.gz"
+      sha256 "40b2424fa69f558ec7ff9959eaca0d17236603c03da4dff2268c70cdf152dcc6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fixbeast/fixbeast/releases/download/v0.1.1/fixbeast-0.1.1-linux-aarch64.tar.gz"
-      sha256 "704c992db5de300087ce39da2d8b4a8cf39a74adb0871efc85de636b80ab3271"
+      url "https://github.com/fixbeast/fixbeast/releases/download/v0.1.2/fixbeast-0.1.2-linux-aarch64.tar.gz"
+      sha256 "22d8a2c85ce08adc20a29c3195f55f137dddea1b47e7c91962d5de36bf42a9d2"
     end
     on_intel do
-      url "https://github.com/fixbeast/fixbeast/releases/download/v0.1.1/fixbeast-0.1.1-linux-x64.tar.gz"
-      sha256 "d23c1ae507b0bf41090cea94023c5bf241c3b74fbd96ba4e9bf0101935705a11"
+      url "https://github.com/fixbeast/fixbeast/releases/download/v0.1.2/fixbeast-0.1.2-linux-x64.tar.gz"
+      sha256 "465a0733668d25a1bb165b4633f0ae00e10d016dea9a8670c394bfdac0422536"
     end
   end
 
